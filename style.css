@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size:0.8rem;
+    font-size:1.5rem;
     color: darkslategray;
 }
 
@@ -22,7 +22,7 @@
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .top>div{
     display: flex;
@@ -37,7 +37,7 @@ input{
 
 #canvasColor,#penColor{
     /* border: none; */
-    width: 80px;
+    width: 150px;
     height: 18px;
     border-radius: 10px;
     /* background-color: none; */
@@ -46,11 +46,12 @@ input{
 
 #width{
     height: 4px;
+    width: 150px;
 }
 
 .bottom{
     
-    margin-top: 15px;
+    margin-top: 35px;
     display: flex;
     width: 65%;
     align-items: center;
@@ -58,7 +59,7 @@ input{
 }
 
 .btn{
-    font-size: 0.65rem;
+    font-size: 1rem;
     border: 1px solid lightgray;
     padding: 5px 10px;
     cursor: pointer;
