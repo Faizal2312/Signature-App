@@ -9,7 +9,7 @@ let penColor = document.getElementById("penColor");
 // console.log(penColor);
 // console.log(width.value);
 ctx.fillStyle='white';
-ctx.fillRect(0,0,500,250);
+ctx.fillRect(0,0,880,400);
 
 
 let line_color = "black";
@@ -28,7 +28,7 @@ width.addEventListener('change',(e)=>{
 canvasColor.addEventListener('change',(e)=>{
     // console.log(e.target.value);
     ctx.fillStyle = e.target.value;
-    ctx.fillRect(0,0,500,250);
+    ctx.fillRect(0,0,880,400);
 })
 
 myCanvas.addEventListener("mousedown",start,false);
@@ -76,8 +76,8 @@ function stop(event){
 let clear = document.getElementById("clear");
 clear.addEventListener("click",(e)=>{
     ctx.fillStyle = 'white';
-    ctx.clearRect(0,0,500,250);
-    ctx.fillRect(0,0,500,250);
+    ctx.clearRect(0,0,880,400);
+    ctx.fillRect(0,0,880,400);
 })
 
 let save = document.getElementById('save');
